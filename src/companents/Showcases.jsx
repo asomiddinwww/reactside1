@@ -3,7 +3,7 @@ import btnimg from "../assets/img/btnshow.png";
 import shopimg from "../assets/img/shopimg.png";
 
 
-const Showcase = () => {
+const Showcases = () => {
   const [isLocationOpen, setIsLocationOpen] = useState(false);
   const [isParticipantsOpen, setIsParticipantsOpen] = useState(false);
   const [selectedLocation, setSelectedLocation] = useState("Локация для тура");
@@ -127,4 +127,4 @@ const Showcase = () => {
   );
 };
 
-export default Showcase;
+export default Showcases;

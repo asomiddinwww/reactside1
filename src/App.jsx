@@ -5,13 +5,13 @@ import Pagode from './companents/Pagode'
 import Photo from './companents/Photo'
 import Popularne from './companents/Popularne'
 import Program from './companents/Program'
-import Showcase from './companents/showcase'
+import Showcases from './companents/Showcases'
 
 const App = () => {
   return (
     <div className='containerr'>
       <Headerr/>
-      <Showcase/>
+      <Showcases/>
       <Pagode/>
       <Program/>
       <Popularne/>
