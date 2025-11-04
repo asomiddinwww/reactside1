@@ -5,7 +5,7 @@ import p from '../assets/img/p.png'
 import s from '../assets/img/s.png'
 import fot from '../assets/img/fot.png'
 
-const Footer = () => {
+const Footerr = () => {
   return (
     <footer className='w-full flex flex-col items-center justify-center pt-20 bg-[#1a3d3d]'>
         <div className='pb-18 pt-18 pl-5 pr-5 flex items-start justify-center gap-20 max-[924px]:grid grid-cols-2 max-[600px]:grid-cols-1'>
@@ -54,4 +54,4 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footerr

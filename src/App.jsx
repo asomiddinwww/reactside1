@@ -1,6 +1,7 @@
 import Blog from './companents/Blog'
-import Footer from './companents/Footer'
-import Header from './companents/header'
+import Footerr from './companents/Footerr'
+import Footerr from './companents/Footerr'
+import Headerr from './companents/header'
 import Pagode from './companents/Pagode'
 import Photo from './companents/Photo'
 import Popularne from './companents/Popularne'
@@ -10,14 +11,14 @@ import Showcase from './companents/showcase'
 const App = () => {
   return (
     <div className='containerr'>
-      <Header/>
+      <Headerr/>
       <Showcase/>
       <Pagode/>
       <Program/>
       <Popularne/>
       <Blog/>
       <Photo/>
-      <Footer/>
+      <Footerr/>
     </div>
   )
 }

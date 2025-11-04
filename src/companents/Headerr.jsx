@@ -3,7 +3,7 @@ import Logoimg from '../assets/img/logo.png';
 import bars from "../assets/img/bars.png";
 import close from "../assets/img/close_icon.png";
 
-const Header = () => {
+const Headerr = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -64,4 +64,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Headerr;
